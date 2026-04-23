@@ -2,7 +2,9 @@
 #include <vector>
 #include <algorithm>
 using namespace std;
-
+// Input:  ???
+// Output: ???
+// Key observation: ???
 int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
