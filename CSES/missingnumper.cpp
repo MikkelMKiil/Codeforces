@@ -8,11 +8,12 @@ int main() {
     vector<int> a(n - 1);
     for (auto& x : a) cin >> x;
     sort(a.begin(), a.end());
-    bool first = true;
-    int last;
-    for (auto& x : a){
-        if (first) last = x;
-        else if (abs(last - x) > 1) cout << x;
-        else last = x, cout << last;
-    } 
+
+    for (int i = 0; i < (int)a.size(); i++) {
+        if (a[i] != i + 1) {
+            cout << i + 1 << "\n";
+            return 0;
+        }
+    }
+cout << n << "\n";
 }
