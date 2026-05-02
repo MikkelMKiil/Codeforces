@@ -1,0 +1,1 @@
+1090; bugged out because i used n before asserting it, while (l < r) missed edge case when l == r, forgot to add x instead of hard coded 10.
