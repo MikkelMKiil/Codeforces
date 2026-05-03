@@ -3,22 +3,24 @@ using namespace std;
 
 // 1 read n and array
 int one(){
+
 }
 // 2 sort
 int two(){
-    return 0;
+
 }
 // 3 walk adjacent pairs
 int three(){
-    return 0;
+
 }
 // 4 boolean yes no
 int four(){
-    return 0;
+
 }
 // 5 multi test case
 int five(){
-    return 0;
+
+    
 }
 // 6 count with map
 
@@ -27,8 +29,10 @@ int five(){
 // 8 sum
 
 // 9 two pointers from ends
+int nine(){
 
+}
 // 10 output array with spaces
 int ten(){
-    return 0;
+
 }
