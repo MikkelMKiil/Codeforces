@@ -12,3 +12,9 @@ CSES 1091, Concert Tickets.
 Signal: find best match ≤ budget, remove after use, repeated queries
 Idea: multiset keeps sorted, upper_bound then step back gives largest ≤ x, erase by iterator
 Trap: whatever got you — printing it instead of *it, reading input twice, ms.erase(ms.find(it)) vs ms.erase(it)
+
+DIV4 1062 C
+Signal: operation requires some condition between elements, asks for optimal result
+Idea: check if the operation is possible at all before simulating it. If any pair has different parity, everything is reachable.
+Trap: tried to simulate the sorting process instead of asking "can I sort at all?"
+
