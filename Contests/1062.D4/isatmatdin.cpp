@@ -1,6 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 int main(){
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    
     int t, n;
     cin >> t;
     while (t--){
@@ -9,8 +12,8 @@ int main(){
         bool sortable = false;
         for(auto& x : a) cin >> x;
         for(int i = 1; i < n; ++i){
-            if ((a[i-1] % 2) != (a[i] % 2)){
-                sortable = true;}
+            if ((a[i-1] % 2) != (a[i] % 2))
+            {sortable = true; break;}
         }
         if (sortable) sort(a.begin(),a.end());
         for(auto& x : a) cout << x << " ";
