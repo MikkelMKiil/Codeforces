@@ -1,0 +1,3 @@
+WRN 2026-05-30T16:41:33.547 ?.38769    server_start:197: Failed to start server: operation not permitted: /var/folders/j9/5_136hpn571_k3t_wxx3636h0000gn/T/nvim.kiilo/0HQ65U/nvim.38769.0
+WRN 2026-05-30T16:42:51.145 ?.38807    server_start:197: Failed to start server: operation not permitted: /var/folders/j9/5_136hpn571_k3t_wxx3636h0000gn/T/nvim.kiilo/mrjW4R/nvim.38807.0
+WRN 2026-05-30T18:38:26.497 ?.48134    server_start:197: Failed to start server: operation not permitted: /var/folders/j9/5_136hpn571_k3t_wxx3636h0000gn/T/nvim.kiilo/QhyDKK/nvim.48134.0
