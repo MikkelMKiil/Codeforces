@@ -1,0 +1,9 @@
+    Algorithm FindMissing(A, n):                                             
+        for j = 0 to n - 1:                                                  
+            found = false                                                    
+            for i = 0 to n - 2:                                              
+                if A[i] == j:                                                
+                    found = true                                             
+            if not found:                                                    
+                return j                                                     
+
